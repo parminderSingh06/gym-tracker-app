@@ -1,12 +1,14 @@
+import { Link } from 'react-router-dom';
 import '../styles/MainNavigation.css';
 
 function MainNavigation(){
     return (
       <ul>
-        <li><a href="./">Workouts</a></li>
-        <li><a href="./">Calories</a></li>
-        <li><a href="./">Profile</a></li>
-        <li><a href="./">Settings</a></li>
+        <li><Link to="/workouts">Workouts</Link></li>
+        <li><Link to="/calories">Calories</Link></li>
+        <li><Link to="/profile">Profile</Link></li>
+        <li><Link to="/settings">Settings</Link></li>
+          
       </ul>  
     );
 }
