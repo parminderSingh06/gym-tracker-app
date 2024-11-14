@@ -1,8 +1,8 @@
+import TemplateView from "./workouts/templateView";
+
 function WorkoutsPage(){
     return(
-        <div>
-            This is the workouts page.
-        </div>
+        <TemplateView/>
     )
 }
 
